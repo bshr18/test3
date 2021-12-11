@@ -1,0 +1,102 @@
+/*-------------basec set up------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color: #444;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.raw{
+    max-width:1500px;
+    margin: 0 auto;
+}
+/*----------hedings--------*/
+
+h1{
+    margin: 0;
+    font-size: 300%;
+    font-weight: 600;
+    word-spacing: 5px;
+    
+}
+/*=========button======*/
+.btn:link,
+.btn:visited{
+    display: inline-block;
+padding: 10px 30px;
+text-decoration: none;
+font-size: 80%;
+transition: background-color 1s , color 1s;
+
+}
+
+
+.btnf:link,
+.btnf:visited{
+    color: #fff;
+background-color: green;
+margin-left: 30px;
+border-radius: 5px;
+}
+.btnf:hover,
+.btnf:active{
+    background-color: khaki;
+}
+
+
+.btnb:link,
+.btnb:visited{
+border: 1px solid goldenrod;
+color: indigo;
+}
+.btnb:hover,
+.btnb:active{
+    background-color: lawngreen;
+}
+/*==========header=============*/
+header{
+    background-image: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)) ,url(../img/water-g52afa9f3b_1920.jpg);
+    background-size: 100%;
+    height: 100vh;
+}
+.gg{
+    width: 1140px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    }
+    .logo{
+        width: 100px;
+        height: auto;
+        float: left;
+        margin-top: 20px;
+        
+        border-radius: 50%;
+    }
+    .nav{
+        margin-top: 40px;
+        margin-right: 70px;
+float: right;
+list-style: none;
+    }
+    .nav li{
+display: inline-block;
+margin-left: 30px;
+padding: bottom 5px; 
+border-bottom: 3px solid transparent;
+transition: border-bottom ,1s;
+
+    }
+    .nav li:hover{
+border-bottom: 3px solid #222;
+    }
+    .nav li a:link,
+    .nav li a:visited{
+        text-decoration: none;
+        color: #222;
+    }
